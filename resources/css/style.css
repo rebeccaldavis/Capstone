@@ -94,3 +94,77 @@ h1.slogan {
 .slogan, .slogan-info, .button {
 	margin: 1.5rem 0rem;
 }
+
+/* Info section Styling */
+
+.info-main {
+	width: 60%;
+	margin: 2rem 1.5rem;
+}
+
+.info-main img {
+	width: 100%;
+	margin-bottom: 32px;
+}
+
+.info-main h2 {
+	font-size: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+
+.info-main p {
+	margin-bottom: 2rem;
+}
+
+.info-sidebar {
+	width: 40%;
+	margin-top: 1rem;
+}
+
+.sidebar {
+	display: flex;
+	align-items: center;
+}
+
+.info-sidebar img {
+	width: 35%;
+	height: auto;
+	margin: 1rem;
+}
+
+.info-text p {
+	margin: 8px 0;
+}
+
+
+/* Courses section Styling */
+
+
+
+h1 {
+	text-align: center;
+	font-size: 2rem;
+	background-color: #DCDCDC;
+	padding-top: 2rem;
+	padding-bottom: 1rem;
+	width: 100%;
+}
+
+.courses {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem 3.5rem;
+	background-color: #DCDCDC;
+}
+
+.course {
+	width: 30%;
+	margin: 1rem;
+	background-color: white;
+}
+
+.course img {
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+}
