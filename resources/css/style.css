@@ -1,0 +1,96 @@
+/* Page wide styling */
+
+html {
+	font-family: Helvetica;
+	font-size: 16px;
+	line-height: 1.4;
+}
+
+body {
+	margin: 0 auto;
+}
+
+.container {
+	display: flex;
+	margin: 0 auto;
+}
+
+
+/* Header Styling */
+
+header {
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+	background-color: white;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4rem;
+  width: 100%;
+}
+
+.company {
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	height: 2rem;
+	margin-left: 1.5rem;
+}
+
+ul li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 1rem;
+}
+
+/* Banner & slogan section styling */
+
+.banner-container {
+  background-color: #DCDCDC;
+  width: 100%;
+  align-items: center;
+  padding-top: 4rem;
+}
+
+.banner-img {
+	width: 60%;
+	margin: 2rem 1.5rem;
+}
+
+.banner-img img {
+	width: 100%;
+}
+
+.slogan-container {
+  color: #484848;
+  text-align: left;
+  width: 30%;
+}
+
+h1.slogan {
+	font-size: 2rem;
+}
+
+.slogan-info {
+	font-size: 1.5rem;
+}
+
+.button {
+	display: block;
+	color: white;
+	background-color: #484848;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.slogan, .slogan-info, .button {
+	margin: 1.5rem 0rem;
+}
