@@ -75,6 +75,15 @@ ul li {
 	font-family: "Muli", sans-serif;
 }
 
+a:hover {
+	color: #A9A9A9;
+}
+
+a {
+	text-decoration: none;
+	color: #484848;
+}
+
 .mobile-display {
 	display: none;
 }
@@ -136,8 +145,18 @@ ul li {
 	font-family: "Muli", sans-serif;
 	font-weight: 300;
 	font-size: 1.5rem;
+	border: solid 2px #484848;
 	border-radius: 0.5rem;
 	width: 70%;
+	transition: color .25s ease-in-out .12s;
+	transition: background-color .25s ease-in-out .12s;
+}
+
+.button:hover {
+	color: white;
+	background-color: #A9A9A9;
+	border-color: #A9A9A9;
+	
 }
 
 .slogan, .slogan-info, .button {
@@ -156,7 +175,7 @@ ul li {
 	}
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 	.banner-container {
 		width: 100%;
 		display: block;
@@ -222,6 +241,11 @@ ul li {
 	align-items: center;
 	border-top: solid #DCDCDC 1px;
 	border-left: solid #DCDCDC 1px;
+	transition: background-color .4s linear .12s;
+}
+
+.sidebar:hover {
+	background-color: #DCDCDC;
 }
 
 .btm-border {
@@ -243,15 +267,20 @@ ul li {
 	margin: 0.5rem 0;
 }
 
-.read-more {
+.read-more a {
+	text-decoration: none;
 	color: #06F;
 }
 
-.mobile-img {
+.read-more:hover {
+	text-decoration: underline;
+}
+
+#mobile-img {
 	display: none;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 	.main {
 		display: none;
 	}
@@ -326,6 +355,11 @@ ul li {
 	padding-top: 1rem;
 	font-size: 1.75rem;
 	font-family: "Overpass", sans-serif;
+	transition: color .2s linear .1s;
+}
+
+.course h3:hover {
+	color: #A9A9A9;
 }
 
 .course h5 {
@@ -348,7 +382,7 @@ ul li {
 	}
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 	.learning h1 {
 		background-color: white;
 		border-top: solid 1px #DCDCDC;
@@ -370,6 +404,10 @@ ul li {
 		padding: 2rem 1rem;
 		margin-top: 0.5rem;
 		border-radius: 0.3rem;
+		transition: color .2s linear .1s;
+	}
+	.course-mobile h4:hover {
+		color: white;
 	}
 }
 
@@ -388,7 +426,7 @@ padding-top: 1rem;
 	display: none
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 	.thesis, .mobile-hide, .main-t p, .main-t h1 {
 		display: none;
 	}
@@ -423,7 +461,7 @@ footer {
 	display: inline-block;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
 	.footer-container {
 		margin: 0;
 		justify-content: center;
